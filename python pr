@@ -52,6 +52,13 @@ for i in b:
         a=i
 print(a)
 
+how to find the desecending order:
+thislist = [5,100, 50, 65, 82, 23]
+thislist.sort(reverse = True)
+print(thislist)
+o/p:
+[100, 82, 65, 50, 23, 5]
+
 
 
 
