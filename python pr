@@ -60,8 +60,32 @@ o/p:
 [100, 82, 65, 50, 23, 5]
 
 
+how to find the number in the string:without using the build in fun:
+string=str(input("enter the string:"))
+res=False
+numbers="0123456789"
+for i in string:
+    if i in numbers:
+        res=True
+        break;
+print(res)
 
+o/p:
+Kiran123.
+True.
 
+another way ascii values.
+string=str(input("enter the string:"))
+def strinnum(s):
+    for i in s:
+        if ord(i)>=48 and ord(i)<=57:
+            return True
+    return False
+print(strinnum(string))
+    
+o/p:
+Kiran123.
+True.
 
 
 
