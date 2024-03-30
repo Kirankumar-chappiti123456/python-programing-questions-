@@ -74,6 +74,7 @@ o/p:
 Kiran123.
 True.
 
+
 another way ascii values.
 string=str(input("enter the string:"))
 def strinnum(s):
