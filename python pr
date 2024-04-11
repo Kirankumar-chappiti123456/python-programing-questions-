@@ -211,3 +211,15 @@ else:
     
     
     
+how to find the middle word in the string.
+
+a=str(input("enter the name:"))
+def strmid(a):
+    l=int(len(a)//2)
+    if len(a) %2==0:
+        return a[l]
+    else:
+        return a[l]
+    
+print(strmid(a))
+
