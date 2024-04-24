@@ -223,3 +223,11 @@ def strmid(a):
     
 print(strmid(a))
 
+
+another method:
+a=str(input("enter the character:"))
+l=int(len(a)/2)
+if len(a) %2==0:
+    print(a[l-1],a[l])
+else:
+    print(a[l])
