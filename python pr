@@ -76,6 +76,10 @@ True.
 
 
 another way ascii values.
+48 - 57 numbers(0123456789)
+65 - 90 Capital letters
+95 - 122 small letters.
+
 string=str(input("enter the string:"))
 def strinnum(s):
     for i in s:
@@ -87,6 +91,7 @@ print(strinnum(string))
 o/p:
 Kiran123.
 True.
+
 
 
 reverse the string:
