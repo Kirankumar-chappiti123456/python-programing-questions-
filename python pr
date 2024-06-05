@@ -237,6 +237,15 @@ if len(a) %2==0:
 else:
     print(a[l])
 
+or
+a=str(input("enter the character?"))
+b=int(len(a))
+c=b//2
+if c%2==0:
+    print(a[c])
+else:
+    print(a[c-1],a[c])
+
 
 
 in a cricket match, the battingteam is scoring runs with some run rate.the match is 20 overs.
