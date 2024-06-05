@@ -236,3 +236,19 @@ if len(a) %2==0:
     print(a[l-1],a[l])
 else:
     print(a[l])
+
+
+
+in a cricket match, the battingteam is scoring runs with some run rate.the match is 20 overs.
+write a program to find the total runs scored by the batting.or run rate.
+
+a=int(input("enter the no of overs?"))
+b=int(input("enter the run rate?"))
+d=a*b
+print(f"Total runs scored by the batting is {d}")
+
+or for run rate finding
+a=int(input("enter the no of overs?"))
+b=int(input("enter the scored runs?"))
+d=b/a
+print(f"RUN RATE is {d}")
