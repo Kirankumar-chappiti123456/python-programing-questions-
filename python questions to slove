@@ -1,0 +1,18 @@
+1)  I am giving a list [2,5,3,4,6,9,10] can you print the numbers present in the even number index of list using list comprehension?
+2)  Can you write a recursive code for factorial of a number?
+3)Tell me about yourself?
+What was your inference from your project?
+What are your future works based on your project?
+Can you tell me linux command for checking the ram size?
+linux command to list file with their file size
+linux command to check the cpu usage
+Can you tell me in which programming language are you strong?
+How do you check the size of data type in C?
+Without using sizeof operator how do you find the size of the particular data type?
+A list is given [1,2,3,4,5] and output [1,4,9,16,25] you can use any programming language.
+Take the case above and get the same output using dictionary.
+Print 1 to 100 without using any loop write a C program.
+A string is given “MALAYALAM” and output should be “MALY” you can use any programming language.
+Without using dictionary how do you remove the duplicate items regarding the before question?
+Can you list storage classes in C.
+Using static can you write a C program to find the radius of the circle.
