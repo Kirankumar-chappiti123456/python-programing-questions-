@@ -5,7 +5,7 @@ if a==1:
     print("head")
 else:
     print("tail")
-    
+
 
 output:
 tail or heead
