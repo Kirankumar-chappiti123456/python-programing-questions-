@@ -1,0 +1,58 @@
+silcing:A slice object is used to specify how to slice a sequence. You can specify where to start the slicing, and where to end. You can also specify the step, which allows you to e.g. slice only every other item.
+
+slicing we have the parameters like the start,end,step.
+
+by default values:
+start=0
+end=total length of the string
+step=1
+
+start= from which index we have to start.
+end =upto which index we have to slice a string.
+step= how many steps to move.
+
+logic beyond the slicing:
+condition:            index value=0
+index<end             end value=9
+0<9 condition true and it will print the 0 index value like 1 or something.
+current index value=0
+new index=current index value+step value
+new index=0+1
+new index=1.
+
+ex:
+a="123456789"
+b=len(a)
+print(a[:b])
+
+or 
+a="123456789"
+print(a[:])
+
+how to print odd value in the string:
+a="123456789"
+print(a[::2])
+
+o/p:
+13579
+
+how to print even number:
+a="123456789"
+print(a[1:8:2])
+o/p:
+2468
+
+k=[1,1,1,'a',2,2,2,'b',3,3,3,'c',4,4,4,'d',5,5,5,'e',6,6,6,'f']
+print(k[3::4])
+o/p: abcdef
+
+k="111a222b333c444d555e666f"
+print(k[3::4])
+o/p:
+abcedf.
+
+k="12a34b56c78d90e"
+print(k[2::3])
+o/p:
+abcde.
+
