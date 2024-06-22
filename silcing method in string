@@ -56,3 +56,8 @@ print(k[2::3])
 o/p:
 abcde.
 
+reverse the string :
+a="kiran"
+print(a[::-1])
+o/p:
+narik
