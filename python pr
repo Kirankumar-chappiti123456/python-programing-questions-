@@ -74,7 +74,19 @@ o/p:
 Kiran123.
 True.
 
-
+or
+a=str(input("enter the name:"))
+b="0123456789"
+flag=False
+for i in a:
+    if i in b:
+        flag=True
+        break
+if flag:
+    print(a,"number are present in string")
+else:
+    print(a,"number are not present in string")
+        
 another way ascii values.
 48 - 57 numbers(0123456789)
 65 - 90 Capital letters alphabets
