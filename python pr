@@ -99,7 +99,20 @@ def strinnum(s):
             return True
     return False
 print(strinnum(string))
-    
+
+or 
+
+a=str(input("enter the name:"))
+def strinnum(s):
+    for i in s:
+        if ord(i)>=48 and ord(i)<=57:
+            return s
+    return s
+print(strinnum(a))
+
+
+
+
 o/p:
 Kiran123.
 True.
