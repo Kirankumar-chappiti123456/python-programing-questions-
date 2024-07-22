@@ -110,12 +110,21 @@ def strinnum(s):
     return s
 print(strinnum(a))
 
-
-
-
 o/p:
 Kiran123.
 True.
+
+a=str(input("enter the character")) :kiran
+b=a.upper()
+print(b)
+
+o/p:KIRAN
+
+a=str(input("enter the character")) :KIRAN
+b=a.lower()
+print(b) 
+
+O/P:kiran
 
 
 
